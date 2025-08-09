@@ -5,8 +5,8 @@ import os
 import smtplib
 
 # Set environment variables manually (you can set from terminal too)
-os.environ['EMAIL_USER'] = 'anilbissau04@gmail.com'
-os.environ['EMAIL_PASS'] = 'fpud uqsb dxuc nqiv'
+os.environ['EMAIL_USER'] = 'your@gmail.com'
+os.environ['EMAIL_PASS'] = 'your_pass_key'
 
 # Fetch credentials from environment variables
 sender_email = os.environ.get('EMAIL_USER')
